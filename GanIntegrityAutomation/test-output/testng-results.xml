@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GanIntegritySuite" duration-ms="58368" started-at="2021-08-11T21:06:07Z" finished-at="2021-08-11T21:07:06Z">
+    <groups>
+    </groups>
+    <test name="GanIntegrityTest1" duration-ms="58368" started-at="2021-08-11T21:06:07Z" finished-at="2021-08-11T21:07:06Z">
+      <class name="test.GanIntegrityTest">
+        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="navigateToApplication" is-config="true" duration-ms="5563" started-at="2021-08-11T21:06:07Z" finished-at="2021-08-11T21:06:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method status="PASS" signature="latestLegislationTestCase(java.lang.String)[pri:1, instance:test.GanIntegrityTest@71318ec4]" name="latestLegislationTestCase" duration-ms="11595" started-at="2021-08-11T21:06:13Z" finished-at="2021-08-11T21:06:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UK Bribery Act Enforcement]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- latestLegislationTestCase -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="quitDriver" is-config="true" duration-ms="1308" started-at="2021-08-11T21:06:24Z" finished-at="2021-08-11T21:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="navigateToApplication" is-config="true" duration-ms="4966" started-at="2021-08-11T21:06:26Z" finished-at="2021-08-11T21:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method status="PASS" signature="resourceCenterTestCase()[pri:1, instance:test.GanIntegrityTest@71318ec4]" name="resourceCenterTestCase" duration-ms="16903" started-at="2021-08-11T21:06:31Z" finished-at="2021-08-11T21:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resourceCenterTestCase -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="quitDriver" is-config="true" duration-ms="778" started-at="2021-08-11T21:06:48Z" finished-at="2021-08-11T21:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="navigateToApplication" is-config="true" duration-ms="5654" started-at="2021-08-11T21:06:48Z" finished-at="2021-08-11T21:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method status="PASS" signature="clearSearchBoxTestCase(java.lang.String)[pri:2, instance:test.GanIntegrityTest@71318ec4]" name="clearSearchBoxTestCase" duration-ms="10771" started-at="2021-08-11T21:06:54Z" finished-at="2021-08-11T21:07:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UK Bribery Act Enforcement]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearSearchBoxTestCase -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="quitDriver" is-config="true" duration-ms="798" started-at="2021-08-11T21:07:05Z" finished-at="2021-08-11T21:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- test.GanIntegrityTest -->
+    </test> <!-- GanIntegrityTest1 -->
+  </suite> <!-- GanIntegritySuite -->
+</testng-results>

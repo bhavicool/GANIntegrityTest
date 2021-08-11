@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GanIntegritySuite">
+	<parameter name="searchText" value="UK Bribery Act Enforcement" />
+	
+	<test name="GanIntegrityTest1">
+		<classes>
+			<class name="test.GanIntegrityTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GanIntegritySuite]">
+  <parameter name="searchText" value="UK Bribery Act Enforcement"/>
+  <test thread-count="5" name="GanIntegrityTest1(failed)">
+    <classes>
+      <class name="test.GanIntegrityTest">
+        <methods>
+          <include name="navigateToApplication"/>
+          <include name="resourceCenterTestCase"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- test.GanIntegrityTest -->
+    </classes>
+  </test> <!-- GanIntegrityTest1(failed) -->
+</suite> <!-- Failed suite [GanIntegritySuite] -->
