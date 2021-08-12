@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 
 public class HomePage extends Page{
 	
@@ -41,7 +40,6 @@ public class HomePage extends Page{
 		Actions actions = new Actions(driver);	
 		actions.moveToElement(connectedCOOBlogLink(driver)).click().perform();
 		
-		//Thread.sleep(4000);
 	}
 	
 	public void selectresourceCenterBlog() throws InterruptedException
@@ -54,7 +52,6 @@ public class HomePage extends Page{
 		Actions actions = new Actions(driver);	
 		actions.moveToElement(resourceCenterLink(driver)).click().perform();
 		
-		//Thread.sleep(4000);
 	}
 
 	}

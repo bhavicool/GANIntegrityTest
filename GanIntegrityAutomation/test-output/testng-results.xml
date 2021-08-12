@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="GanIntegritySuite" duration-ms="58368" started-at="2021-08-11T21:06:07Z" finished-at="2021-08-11T21:07:06Z">
+  <suite name="GanIntegritySuite" duration-ms="50101" started-at="2021-08-12T19:30:24Z" finished-at="2021-08-12T19:31:14Z">
     <groups>
     </groups>
-    <test name="GanIntegrityTest1" duration-ms="58368" started-at="2021-08-11T21:06:07Z" finished-at="2021-08-11T21:07:06Z">
+    <test name="GanIntegrityTest1" duration-ms="50101" started-at="2021-08-12T19:30:24Z" finished-at="2021-08-12T19:31:14Z">
       <class name="test.GanIntegrityTest">
-        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="navigateToApplication" is-config="true" duration-ms="5563" started-at="2021-08-11T21:06:07Z" finished-at="2021-08-11T21:06:13Z">
+        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="navigateToApplication" is-config="true" duration-ms="5876" started-at="2021-08-12T19:30:24Z" finished-at="2021-08-12T19:30:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToApplication -->
-        <test-method status="PASS" signature="latestLegislationTestCase(java.lang.String)[pri:1, instance:test.GanIntegrityTest@71318ec4]" name="latestLegislationTestCase" duration-ms="11595" started-at="2021-08-11T21:06:13Z" finished-at="2021-08-11T21:06:24Z">
+        <test-method status="PASS" signature="latestLegislationTestCase(java.lang.String)[pri:1, instance:test.GanIntegrityTest@71318ec4]" name="latestLegislationTestCase" duration-ms="8854" started-at="2021-08-12T19:30:30Z" finished-at="2021-08-12T19:30:39Z">
           <params>
             <param index="0">
               <value>
@@ -22,27 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- latestLegislationTestCase -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="quitDriver" is-config="true" duration-ms="1308" started-at="2021-08-11T21:06:24Z" finished-at="2021-08-11T21:06:26Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="quitDriver" is-config="true" duration-ms="1207" started-at="2021-08-12T19:30:39Z" finished-at="2021-08-12T19:30:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="navigateToApplication" is-config="true" duration-ms="4966" started-at="2021-08-11T21:06:26Z" finished-at="2021-08-11T21:06:31Z">
+        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="navigateToApplication" is-config="true" duration-ms="5313" started-at="2021-08-12T19:30:40Z" finished-at="2021-08-12T19:30:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToApplication -->
-        <test-method status="PASS" signature="resourceCenterTestCase()[pri:1, instance:test.GanIntegrityTest@71318ec4]" name="resourceCenterTestCase" duration-ms="16903" started-at="2021-08-11T21:06:31Z" finished-at="2021-08-11T21:06:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resourceCenterTestCase -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="quitDriver" is-config="true" duration-ms="778" started-at="2021-08-11T21:06:48Z" finished-at="2021-08-11T21:06:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quitDriver -->
-        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="navigateToApplication" is-config="true" duration-ms="5654" started-at="2021-08-11T21:06:48Z" finished-at="2021-08-11T21:06:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToApplication -->
-        <test-method status="PASS" signature="clearSearchBoxTestCase(java.lang.String)[pri:2, instance:test.GanIntegrityTest@71318ec4]" name="clearSearchBoxTestCase" duration-ms="10771" started-at="2021-08-11T21:06:54Z" finished-at="2021-08-11T21:07:05Z">
+        <test-method status="PASS" signature="clearSearchBoxTestCase(java.lang.String)[pri:2, instance:test.GanIntegrityTest@71318ec4]" name="clearSearchBoxTestCase" duration-ms="8857" started-at="2021-08-12T19:30:46Z" finished-at="2021-08-12T19:30:54Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearSearchBoxTestCase -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="quitDriver" is-config="true" duration-ms="798" started-at="2021-08-11T21:07:05Z" finished-at="2021-08-11T21:07:06Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="quitDriver" is-config="true" duration-ms="813" started-at="2021-08-12T19:30:54Z" finished-at="2021-08-12T19:30:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="navigateToApplication" is-config="true" duration-ms="5227" started-at="2021-08-12T19:30:55Z" finished-at="2021-08-12T19:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method status="PASS" signature="resourceCenterTestCase()[pri:3, instance:test.GanIntegrityTest@71318ec4]" name="resourceCenterTestCase" duration-ms="13052" started-at="2021-08-12T19:31:00Z" finished-at="2021-08-12T19:31:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resourceCenterTestCase -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:test.GanIntegrityTest@71318ec4]" name="quitDriver" is-config="true" duration-ms="868" started-at="2021-08-12T19:31:13Z" finished-at="2021-08-12T19:31:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->

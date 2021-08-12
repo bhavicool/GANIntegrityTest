@@ -18,8 +18,6 @@ public class ResourceCenter extends Page {
 		return (driver.findElement(By.xpath("//strong[text()='View by Type']")));
 	}
 	
-	//span[text()='eBook']
-	
 	public WebElement viewByTypeeBook(WebDriver driver)
 	{
 
@@ -41,12 +39,9 @@ public class ResourceCenter extends Page {
 	public void resourceCenterFlow() throws InterruptedException
 	{
 
-		
-		Thread.sleep(2000);
 		JavascriptExecutor je = (JavascriptExecutor) driver;
 		je.executeScript("window.scrollBy(0,600)", "");
 		
-		//Thread.sleep(2000);
 		waitForElement(viewByType(driver));
 				
 		Actions action = new Actions(driver);

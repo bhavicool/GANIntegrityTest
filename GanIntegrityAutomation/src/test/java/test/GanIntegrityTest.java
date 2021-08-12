@@ -47,9 +47,9 @@ public class GanIntegrityTest implements ApplicationData {
 		resourceCenter=new ResourceCenter(driver);
 	}
 
-	
+	//Test 1 scenario
 	@Parameters({"searchText"} )
-	@Test (priority=1)	
+	@Test(priority=1)	
 	public void latestLegislationTestCase(String searchText) throws InterruptedException{
 
 		homePage.selectconnectedCOOBlog();
@@ -57,17 +57,18 @@ public class GanIntegrityTest implements ApplicationData {
 	    connectCOOBlog.selectLatestLegislation(searchText);
 	    
 	    String URL = driver.getCurrentUrl();
-	    System.out.println("URL is:"+URL);
+	    //System.out.println("URL is:"+URL);
 	    Assert.assertTrue(URL.contains("blog"));
 	    
 	    int searchCount=connectCOOBlog.getSearchResults();
-	    System.out.println("Search Count is:"+searchCount);
+	    //System.out.println("Search Count is:"+searchCount);
 	    Assert.assertEquals(searchCount, 6);
 
 	}
 	
+	//Test 2 scenario
 	@Parameters({"searchText"} )
-	@Test (priority=2)	
+	@Test(priority=2)		
 	public void clearSearchBoxTestCase(String searchText) throws InterruptedException{
 
 		
@@ -76,17 +77,18 @@ public class GanIntegrityTest implements ApplicationData {
 	    connectCOOBlog.selectLatestLegislationForReset(searchText);
 	    
 	    String text=connectCOOBlog.getBrowseCategoriesText();
-	    System.out.println("Text is:"+text);
+	    //System.out.println("Text is:"+text);
 	    Assert.assertEquals("BROWSE CATEGORIES",text);
 	    
 	    String placeholdeText=connectCOOBlog.getSearchPlaceholderValue();
-	    System.out.println("Text is:"+placeholdeText);
+	    //System.out.println("Text is:"+placeholdeText);
 	    Assert.assertEquals("Search...",placeholdeText);
 	    
 
 	}
 
-	@Test (priority=1)	
+	//Test 3 scenario
+	@Test(priority=3)		
 	public void resourceCenterTestCase() throws InterruptedException{
 
 		homePage.selectresourceCenterBlog();
@@ -96,7 +98,7 @@ public class GanIntegrityTest implements ApplicationData {
 	    resourceCenter.resourceCenterFlow();
 	    
 	    String URL = driver.getCurrentUrl();
-	    System.out.println("URL is:"+URL);
+	    //System.out.println("URL is:"+URL);
 	    Assert.assertTrue(URL.contains("resources"));
 	}
 	

@@ -51,54 +51,48 @@ public class ConnectCOOBlog extends Page{
 	{
 
 		waitForElement(searchBox(driver));
-		Thread.sleep(2000);
+		
 		JavascriptExecutor je = (JavascriptExecutor) driver;
 		
 		//je.executeScript("arguments[0].scrollIntoView(true);",browseCategories(driver));
 		je.executeScript("window.scrollBy(0,150)", "");
 		searchBox(driver).sendKeys(searchText);
 		
-		//Thread.sleep(2000);
+		
 		waitForElement(browseCategories(driver));
 		
         Actions action = new Actions(driver);
         action.moveToElement(browseCategories(driver)).perform();
         
-        // browseCategories(driver).click();
-       // Thread.sleep(4000);
         browseCategories(driver).click();
        //je.executeScript("arguments[0].click();", browseCategories(driver));
-       // Thread.sleep(4000);
-        //waitForElement(latestLegislation(driver));
-		latestLegislation(driver).click();
+       latestLegislation(driver).click();
         //je.executeScript("arguments[0].click();", latestLegislation(driver));
 		//waitForElementList(noOfSearchResults(driver));
-		
-		
 	}
 	
 	public void selectLatestLegislationForReset(String searchText) throws InterruptedException
 	{
 
 		waitForElement(searchBox(driver));
-		Thread.sleep(2000);
+		
 		JavascriptExecutor je = (JavascriptExecutor) driver;
 		
 		//je.executeScript("arguments[0].scrollIntoView(true);",browseCategories(driver));
 		je.executeScript("window.scrollBy(0,150)", "");
 		searchBox(driver).sendKeys(searchText);
 		
-		//Thread.sleep(2000);
+		
 		waitForElement(browseCategories(driver));
 		
         Actions action = new Actions(driver);
         action.moveToElement(browseCategories(driver)).perform();
         
         // browseCategories(driver).click();
-       // Thread.sleep(4000);
+       
         browseCategories(driver).click();
        //je.executeScript("arguments[0].click();", browseCategories(driver));
-       // Thread.sleep(4000);
+       
         //waitForElement(latestLegislation(driver));
 		latestLegislation(driver).click();
         //je.executeScript("arguments[0].click();", latestLegislation(driver));
